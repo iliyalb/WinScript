@@ -231,7 +231,7 @@
             <div class="container wow fadeIn">
                 <div class="row">
                     <div class="col-lg-9 text-center text-lg-left">
-                        <h3 class="cta-title"><a class="fa fa-code" style="color: #2dc997"></a>Open Source</h3>
+                        <h3 class="cta-title"><a class="fa fa-code" style="color: #2dc997"></a> Open Source</h3>
                         <p class="cta-text" dir="rtl">
                             ما به جامعه اوپن سورس اعتقاد داریم و بر این باور هستیم که با به اشتراک گذاشتن
               کد منبع، سبب کمک به دیگران می شویم.
