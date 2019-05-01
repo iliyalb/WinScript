@@ -480,7 +480,7 @@
                 Copyleft <strong>WinScript</strong>. No Rights Reserved
             </div>
             <div class="credits">
-                Inspired by <a href="https://wallpaperhub.app/">WallpaperHub</a>
+                Source repository in <a href="https://github.com/iliyalesani/WinScript">GitHub</a>
             </div>
         </div>
     </footer>
