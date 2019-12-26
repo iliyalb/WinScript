@@ -149,7 +149,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero {
-    background: url(../img/background.jpg) top center no-repeat;
+    background: url(../img/Background/background.webp) top center no-repeat;
     background-size: cover;
     animation: 3s ease-in-out 0s 1 ZoomIn;
     animation-fill-mode: forwards;
@@ -728,7 +728,7 @@ video {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Background/call-to-action-bg.jpg) fixed center center;
     background-size: cover;
     padding: 172px 0;
 }
