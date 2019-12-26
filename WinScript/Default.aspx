@@ -34,7 +34,7 @@
 
             <div id="logo" class="pull-left">
                 <a href="#hero">
-                    <img src="img/logo.png" alt="Logo" title="WinScript" width="30%" height="auto" /></img></a>
+                    <img src="img/label.png" alt="Logo" title="WinScript" width="30%" height="auto" /></img></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -112,7 +112,7 @@
 
                         <!-- SECTION 2 -->
                         <div class="col-md-3 col-lg-3">
-                            <img src="img/mockup.png" alt="About" style="margin-top: 5%;" />
+                            <img src="img/Shamsipour/mockup.png" alt="About" style="margin-top: 5%;" />
                         </div>
 
                         <!-- SECTION 3 -->
@@ -231,7 +231,7 @@
             <div class="container wow fadeIn">
                 <div class="row">
                     <div class="col-lg-9 text-center text-lg-left">
-                        <h3 class="cta-title"><a class="fa fa-code" style="color: #2dc997"></a> Open Source</h3>
+                        <h3 class="cta-title"><a class="fa fa-code" style="color: #2dc997"></a>Open Source</h3>
                         <p class="cta-text" dir="rtl">
                             ما به جامعه اوپن سورس اعتقاد داریم و بر این باور هستیم که با به اشتراک گذاشتن
               کد منبع، سبب کمک به دیگران می شویم.
@@ -362,7 +362,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/team-1.jpg" alt="" />
+                                <img src="img/Team/team-1.jpg" alt="" />
                             </div>
                             <h4>سید علیرضا میرزاقوامی</h4>
                             <span>مدیر پروژه</span>
@@ -374,7 +374,7 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/team-2.jpg" alt="" />
+                                <img src="img/Team/team-2.jpg" alt="" />
                             </div>
                             <h4>ایلیا لسانی</h4>
                             <span>توسعه دهنده</span>
@@ -386,10 +386,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/team-3.jpg" alt="" />
+                                <img src="img/Team/team-3.jpg" alt="" />
                             </div>
-                            <h4>امیرحسین تقوی</h4>
-                            <span>گرافیست</span>
+                            <h4>امیرمهدی نوری</h4>
+                            <span>تهیه کننده</span>
                             <div class="social">
                             </div>
                         </div>
@@ -398,10 +398,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/team-4.jpg" alt="" />
+                                <img src="img/Team/team-4.jpg" alt="" />
                             </div>
-                            <h4>امیرمهدی نوری</h4>
-                            <span>تهیه کننده</span>
+                            <h4>امیرحسین تقوی</h4>
+                            <span>گرافیست</span>
                             <div class="social">
                                 <!-- <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
