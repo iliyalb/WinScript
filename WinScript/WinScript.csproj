@@ -13,7 +13,7 @@
     <AppDesignerFolder>Properties</AppDesignerFolder>
     <RootNamespace>WinScript</RootNamespace>
     <AssemblyName>WinScript</AssemblyName>
-    <TargetFrameworkVersion>v4.7</TargetFrameworkVersion>
+    <TargetFrameworkVersion>v4.8</TargetFrameworkVersion>
     <UseIISExpress>true</UseIISExpress>
     <Use64BitIISExpress />
     <IISExpressSSLPort />
@@ -23,6 +23,7 @@
     <UseGlobalApplicationHostFile />
     <NuGetPackageImportStamp>
     </NuGetPackageImportStamp>
+    <TargetFrameworkProfile />
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
     <DebugSymbols>true</DebugSymbols>
@@ -44,22 +45,21 @@
   </PropertyGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.DynamicData" />
     <Reference Include="System.Web.Entity" />
     <Reference Include="System.Web.ApplicationServices" />
     <Reference Include="System.ComponentModel.DataAnnotations" />
     <Reference Include="System" />
     <Reference Include="System.Data" />
-    <Reference Include="System.Core" />
-    <Reference Include="System.Data.DataSetExtensions" />
     <Reference Include="System.Web.Extensions" />
-    <Reference Include="System.Xml.Linq" />
     <Reference Include="System.Drawing" />
     <Reference Include="System.Web" />
     <Reference Include="System.Xml" />
     <Reference Include="System.Configuration" />
     <Reference Include="System.Web.Services" />
     <Reference Include="System.EnterpriseServices" />
+    <Reference Include="System.Xml.Linq" />
   </ItemGroup>
   <ItemGroup>
     <Reference Include="Microsoft.CodeDom.Providers.DotNetCompilerPlatform">
@@ -70,23 +70,43 @@
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
     <Content Include="img\background.jpg" />
+    <Content Include="img\Background\call-to-action-bg.jpg" />
+    <Content Include="img\Background\parallax.jpg" />
     <Content Include="img\call-to-action-bg.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="img\logo.png" />
     <Content Include="img\mockup.png" />
     <Content Include="img\parallax.jpg" />
-    <Content Include="img\portfolio\app1.jpg" />
-    <Content Include="img\portfolio\card1.jpg" />
-    <Content Include="img\portfolio\card3.jpg" />
-    <Content Include="img\portfolio\card4.jpg" />
-    <Content Include="img\portfolio\web1.jpg" />
-    <Content Include="img\portfolio\web2.jpg" />
-    <Content Include="img\portfolio\web3.jpg" />
-    <Content Include="img\portfolio\web4.jpg" />
+    <Content Include="img\Portfolio\app1.jpg" />
+    <Content Include="img\Portfolio\card1.jpg" />
+    <Content Include="img\Portfolio\card3.jpg" />
+    <Content Include="img\Portfolio\card4.jpg" />
+    <Content Include="img\Portfolio\web1.jpg" />
+    <Content Include="img\Portfolio\web2.jpg" />
+    <Content Include="img\Portfolio\web3.jpg" />
+    <Content Include="img\Portfolio\web4.jpg" />
+    <Content Include="img\Shamsipour\mockup.png" />
+    <Content Include="img\Shamsipour\Shamsipour AR.png" />
+    <Content Include="img\Shamsipour\Shamsipour_Blank.png" />
+    <Content Include="img\Shamsipour\Splash.png" />
     <Content Include="img\team-1.jpg" />
     <Content Include="img\team-2.jpg" />
     <Content Include="img\team-3.jpg" />
     <Content Include="img\team-4.jpg" />
+    <Content Include="img\Team\team-1.jpg" />
+    <Content Include="img\Team\team-2.jpg" />
+    <Content Include="img\Team\team-2.old.jpg" />
+    <Content Include="img\Team\team-3.jpg" />
+    <Content Include="img\Team\team-3.old.jpg" />
+    <Content Include="img\Team\team-4.jpg" />
+    <Content Include="img\Tract\Tract0.jpg" />
+    <Content Include="img\Tract\Tract1.jpg" />
+    <Content Include="img\Tract\Tract2.jpg" />
+    <Content Include="img\Vector\Dark-Triangle.svg" />
+    <Content Include="img\Website\Kazheh.png" />
+    <Content Include="img\Website\Persian Today.png" />
+    <Content Include="img\Website\WinScript Construct.png" />
+    <Content Include="img\Website\WinScript.png" />
     <Content Include="js\main.js" />
     <Content Include="lib\animate\animate.css" />
     <Content Include="lib\animate\animate.min.css" />
@@ -128,6 +148,10 @@
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
+    <Content Include="img\Background\background.webp" />
+    <Content Include="img\Tract\WinScript Tract0.pub" />
+    <Content Include="img\Tract\WinScript Tract1.pub" />
+    <Content Include="img\Tract\WinScript Tract2.pub" />
     <None Include="packages.config" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
