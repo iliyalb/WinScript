@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinScript", "WinScript\WinS
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebConstruction", "WebConstruction\WebConstruction.csproj", "{695EA342-4CE1-45ED-B4B6-DF0C5D2412A6}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WinScript.Core", "WinScript.Core\WinScript.Core.csproj", "{2236B315-F78C-42E2-9934-047F3D30F427}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{695EA342-4CE1-45ED-B4B6-DF0C5D2412A6}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{695EA342-4CE1-45ED-B4B6-DF0C5D2412A6}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{695EA342-4CE1-45ED-B4B6-DF0C5D2412A6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2236B315-F78C-42E2-9934-047F3D30F427}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2236B315-F78C-42E2-9934-047F3D30F427}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2236B315-F78C-42E2-9934-047F3D30F427}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2236B315-F78C-42E2-9934-047F3D30F427}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

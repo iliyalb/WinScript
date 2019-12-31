@@ -149,10 +149,10 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero {
-    background: url(../img/Background/background.webp) top center no-repeat;
+    background: url(../img/Background/newyear.jpg) top center no-repeat;
     background-size: cover;
-    animation: 3s ease-in-out 0s 1 ZoomIn;
-    animation-fill-mode: forwards;
+    /*animation: 3s ease-in-out 0s 1 ZoomIn;*/
+    /*animation-fill-mode: forwards;*/
     /* transition: transform 3s ease-in;
   transform: scale(1.5); */
     width: 100%;

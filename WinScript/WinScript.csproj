@@ -69,14 +69,11 @@
   <ItemGroup>
     <Content Include="css\style.css" />
     <Content Include="Default.aspx" />
-    <Content Include="img\background.jpg" />
     <Content Include="img\Background\call-to-action-bg.jpg" />
+    <Content Include="img\Background\newyear.jpg" />
     <Content Include="img\Background\parallax.jpg" />
-    <Content Include="img\call-to-action-bg.jpg" />
     <Content Include="img\favicon.png" />
     <Content Include="img\logo.png" />
-    <Content Include="img\mockup.png" />
-    <Content Include="img\parallax.jpg" />
     <Content Include="img\Portfolio\app1.jpg" />
     <Content Include="img\Portfolio\card1.jpg" />
     <Content Include="img\Portfolio\card3.jpg" />
@@ -89,10 +86,6 @@
     <Content Include="img\Shamsipour\Shamsipour AR.png" />
     <Content Include="img\Shamsipour\Shamsipour_Blank.png" />
     <Content Include="img\Shamsipour\Splash.png" />
-    <Content Include="img\team-1.jpg" />
-    <Content Include="img\team-2.jpg" />
-    <Content Include="img\team-3.jpg" />
-    <Content Include="img\team-4.jpg" />
     <Content Include="img\Team\team-1.jpg" />
     <Content Include="img\Team\team-2.jpg" />
     <Content Include="img\Team\team-2.old.jpg" />
@@ -142,17 +135,19 @@
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="img\background.webp" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.eot" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.ttf" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff" />
     <Content Include="lib\font-awesome\fonts\fontawesome-webfont.woff2" />
     <Content Include="lib\font-awesome\fonts\FontAwesome.otf" />
-    <Content Include="img\Background\background.webp" />
     <Content Include="img\Tract\WinScript Tract0.pub" />
     <Content Include="img\Tract\WinScript Tract1.pub" />
     <Content Include="img\Tract\WinScript Tract2.pub" />
+    <Content Include="img\Background\newyear.webp">
+      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
+    </Content>
     <None Include="packages.config" />
+    <None Include="Properties\PublishProfiles\FolderProfile.pubxml" />
     <None Include="Web.Debug.config">
       <DependentUpon>Web.config</DependentUpon>
     </None>
