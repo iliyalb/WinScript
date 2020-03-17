@@ -1,6 +1,7 @@
 ﻿<!DOCTYPE html>
 
 <html xmlns="http://www.w3.org/1999/xhtml" lang="fa">
+
 <head runat="server">
     <meta charset="utf-8" />
     <title>WinScript</title>
@@ -10,21 +11,23 @@
 
     <!-- Favicons -->
     <link href="img/favicon.png" rel="icon" />
-    <link href="img/apple-touch-icon.png" rel="apple-touch-icon" />
 
     <!-- Google Fonts -->
-    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700" rel="stylesheet" />
+    <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,700,700i|Poppins:300,400,500,700"
+        rel="stylesheet" />
 
     <!-- Bootstrap CSS File -->
     <link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet" />
 
     <!-- Libraries CSS Files -->
-    <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" />
+    <script src="https://kit.fontawesome.com/2028e5dfdb.js" crossorigin="anonymous"></script>
+    <!-- <link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet" /> -->
     <link href="lib/animate/animate.min.css" rel="stylesheet" />
 
     <!-- Main Stylesheet File -->
     <link href="css/style.css" rel="stylesheet" />
 </head>
+
 <body>
     <!-- Header -->
     <header id="header">
@@ -32,7 +35,7 @@
 
             <div id="logo" class="pull-left">
                 <a href="#hero">
-                    <img src="img/label.png" alt="Logo" title="WinScript" width="30%" height="auto" /></img></a>
+                    <img src="img/label.webp" alt="Logo" title="WinScript" width="30%" height="auto" /></img></a>
             </div>
 
             <nav id="nav-menu-container">
@@ -86,40 +89,45 @@
             <div>
 
                 <div class="video-wrapper">
-                    <video id="vid" src="vid/background.mp4" autoplay="" loop="" muted="" style="margin-top: -5%"></video>
+                    <video id="vid" src="vid/background.mp4" autoplay="" loop="" muted=""
+                        style="margin-top: -5%"></video>
                 </div>
 
                 <div class="container wow fadeIn">
                     <div class="row">
 
                         <!-- SECTION 1 -->
-                        <div class="col-md-6 col-lg-6" style="direction: rtl; text-align: justify; overflow-wrap: break-word;">
+                        <div class="col-md-6 col-lg-6"
+                            style="direction: rtl; text-align: justify; overflow-wrap: break-word;">
                             <div class="about-content">
                                 <span>
                                     <h2>پروژه واقعیت افزوده شمسی پور</h2>
                                 </span>
-                                <h3>تیم مهندسی وین اسکریپت در نظر داشته تا برای اولین بار در میان تمامی دانشگاه های سراسر کشور از فناوری
-                  واقعیت افزوده جهت تسهیل انجام برخی کار ها بهره برده
-                  و دانشجویان و علاقه مندادن را با واقعیت های دیجیتال آشنا سازد. سورس و مستندات نرم افزار به همراه
-                  توضیحات
-                  لازم در اختیار همه عزیزان قرار دارد. از نکات مثبت این نرم افزار می توان به ابزار توسعه Vuforia SDK با
-                  سرعت بالای پردازش تصویر اشاره کرد.
+                                <h3>تیم مهندسی وین اسکریپت در نظر داشته تا برای اولین بار در میان تمامی دانشگاه های
+                                    سراسر کشور از فناوری
+                                    واقعیت افزوده جهت تسهیل انجام برخی کار ها بهره برده
+                                    و دانشجویان و علاقه مندادن را با واقعیت های دیجیتال آشنا سازد. سورس و مستندات نرم
+                                    افزار به همراه
+                                    توضیحات
+                                    لازم در اختیار همه عزیزان قرار دارد. از نکات مثبت این نرم افزار می توان به ابزار
+                                    توسعه Vuforia SDK با
+                                    سرعت بالای پردازش تصویر اشاره کرد.
                                 </h3>
                             </div>
                         </div>
 
                         <!-- SECTION 2 -->
                         <div class="col-md-3 col-lg-3">
-                            <img src="img/Shamsipour/mockup.png" alt="About" style="margin-top: 5%;" />
+                            <img src="img/Shamsipour/mockup.webp" style="margin-top: 5%;" alt="About">
                         </div>
 
                         <!-- SECTION 3 -->
-                        <div class="col-md-3 col-lg-3" style="margin: 0 auto;">
-                            <ul style="display: grid; margin-top: 100px;">
+                        <div class="col-md-3 col-lg-3 downloadLinks">
+                            <ul>
                                 <li>
-                                    <a href="https://github.com/iliyalesani/ShamsipourAR/tree/master/Builds/Android">
+                                    <a href="https://github.com/iliyalesani/ShamsipourAR/raw/master/Builds/Android/ShamsiporAR_1.0.1.apk">
                                         <div class="download android">
-                                            <i class="fa fa fa-android fa-3x"></i>
+                                            <i class="fab fa-android fa-2x"></i>
                                             <span class="df">Download for</span>
                                             <span class="dfn">Android</span>
                                         </div>
@@ -128,8 +136,8 @@
 
                                 <li>
                                     <a href="https://github.com/iliyalesani/ShamsipourAR/tree/master/Builds/iOS">
-                                        <div class="download apple">
-                                            <i class="fa fa fa-apple fa-3x"></i>
+                                        <div class="download apple" id="ios">
+                                            <i class="fab fa-apple fa-2x"></i>
                                             <span class="df">Download for</span>
                                             <span class="dfn">iOS</span>
                                         </div>
@@ -137,11 +145,11 @@
                                 </li>
 
                                 <li>
-                                    <a href="https://github.com/iliyalesani/ShamsipourAR/tree/master/Builds/Windows">
+                                    <a href="https://github.com/iliyalesani/ShamsipourAR/raw/master/Builds/Windows/ShamsiporAR_1.0.1.appx">
                                         <div class="download windows">
-                                            <i class="fa fa fa-windows fa-3x"></i>
+                                            <i class="fab fa-windows fa-2x"></i>
                                             <span class="df">Download for</span>
-                                            <span class="dfn">Windows 10</span>
+                                            <span class="dfn">Windows</span>
                                         </div>
                                     </a>
                                 </li>
@@ -199,21 +207,21 @@
                 <div class="row">
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.2s">
                         <div class="box">
-                            <div class="icon"><a><i class="fa fa-cube"></i></a></div>
+                            <div class="icon"><a><i class="fas fa-photo-video"></i></a></div>
                             <h4 class="title"><a>گرافیک</a></h4>
                             <p class="description">طراحی تراکت، پوستر، تکسچر و تولید محتوای چند رسانه ای</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.4s">
                         <div class="box">
-                            <div class="icon"><a><i class="fa fa-google"></i></a></div>
+                            <div class="icon"><a><i class="fas fa-mobile-alt"></i></a></div>
                             <h4 class="title"><a>موبایل</a></h4>
                             <p class="description">توسعه برنامه های کاربردی مخصوص دستگاه های هوشمند</p>
                         </div>
                     </div>
                     <div class="col-lg-4 col-md-6 wow fadeInUp" data-wow-delay="0.6s">
                         <div class="box">
-                            <div class="icon"><a><i class="fa fa-edge"></i></a></div>
+                            <div class="icon"><a><i class="fab fa-internet-explorer"></i></a></div>
                             <h4 class="title"><a>سایت</a></h4>
                             <p class="description">پیاده سازی وبسایت های استاتیک برای معرفی محصول و مطالب مربوطه</p>
                         </div>
@@ -232,7 +240,7 @@
                         <h3 class="cta-title"><a class="fa fa-code" style="color: #2dc997"></a>Open Source</h3>
                         <p class="cta-text" dir="rtl">
                             ما به جامعه اوپن سورس اعتقاد داریم و بر این باور هستیم که با به اشتراک گذاشتن
-              کد منبع، سبب کمک به دیگران می شویم.
+                            کد منبع، سبب کمک به دیگران می شویم.
                         </p>
                     </div>
                     <div class="col-lg-3 cta-btn-container text-center">
@@ -254,7 +262,8 @@
 
                     <div class="col-lg-12">
                         <ul id="portfolio-flters">
-                            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web" class="filter-active">همه</li>
+                            <li data-filter=".filter-app, .filter-card, .filter-logo, .filter-web"
+                                class="filter-active">همه</li>
                             <li data-filter=".filter-app">برنامه</li>
                             <li data-filter=".filter-card">گرافیک</li>
                             <li data-filter=".filter-logo">لوگو</li>
@@ -266,7 +275,7 @@
                 <div class="row" id="portfolio-wrapper">
                     <div class="col-lg-3 col-md-6 portfolio-item filter-app">
                         <a>
-                            <img src="img/portfolio/app1.jpg" alt="" />
+                            <img src="img/portfolio/app1.webp" alt="" />
                             <div class="details">
                                 <h4 dir="rtl">هوش مصنوعی HECS</h4>
                                 <span>ربات با محوریت زلزله برای تست تورینگ</span>
@@ -276,7 +285,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <a>
-                            <img src="img/portfolio/web1.jpg" alt="" />
+                            <img src="img/portfolio/web1.webp" alt="" />
                             <div class="details">
                                 <h4>Kazheh.ir</h4>
                                 <span>سایت آموزشگاه کاژه</span>
@@ -286,7 +295,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <a>
-                            <img src="img/portfolio/web2.jpg" alt="" />
+                            <img src="img/portfolio/web2.webp" alt="" />
                             <div class="details">
                                 <h4>Persian-Today.com</h4>
                                 <span>نمونه طرح صفحه توریستی</span>
@@ -296,7 +305,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <a>
-                            <img src="img/portfolio/web3.jpg" alt="" />
+                            <img src="img/portfolio/web3.webp" alt="" />
                             <div class="details">
                                 <h4>M30SE.ir</h4>
                                 <span dir="rtl">سایت مجموعه کتاب های Easy Net</span>
@@ -306,7 +315,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-web">
                         <a>
-                            <img src="img/portfolio/web4.jpg" alt="" />
+                            <img src="img/portfolio/web4.webp" alt="" />
                             <div class="details">
                                 <h4>WinScript.ir</h4>
                                 <span>سایت وین اسکریپت</span>
@@ -316,7 +325,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <a>
-                            <img src="img/portfolio/card1.jpg" alt="" />
+                            <img src="img/portfolio/card1.webp" alt="" />
                             <div class="details">
                                 <h4>طرح موقت</h4>
                                 <span>نمونه ای از طرح در دست ساخت بودن صفحه</span>
@@ -326,7 +335,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <a>
-                            <img src="img/portfolio/card3.jpg" alt="" />
+                            <img src="img/portfolio/card3.webp" alt="" />
                             <div class="details">
                                 <h4>تراکت وین اسکریپت 1</h4>
                                 <span>تراکت تبلیغاتی برای طراحی سایت</span>
@@ -336,7 +345,7 @@
 
                     <div class="col-lg-3 col-md-6 portfolio-item filter-card">
                         <a>
-                            <img src="img/portfolio/card4.jpg" alt="" />
+                            <img src="img/portfolio/card4.webp" alt="" />
                             <div class="details">
                                 <h4>تراکت وین اسکریپت 2</h4>
                                 <span>تراکت تبلیغاتی برای خدمات کامپیوتر</span>
@@ -356,13 +365,14 @@
                     <h3 class="section-title">اعضای تیم</h3>
                     <p class="section-description">آشنایی با افراد صمیمی تیم ما</p>
                 </div>
-                <div class="row">
+            <div class="row">
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/Team/team-1.jpg" alt="" />
+                                <img src="img/Team/team-1.webp" alt="team member 1" />
                             </div>
                             <h4>سید علیرضا میرزاقوامی</h4>
+                            <h5>PROJECT MANAGER</h5>
                             <div class="social">
                             </div>
                         </div>
@@ -371,9 +381,10 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/Team/team-2.jpg" alt="" />
+                                <img src="img/Team/team-2.webp" alt="team member 1" />
                             </div>
                             <h4>ایلیا لسانی</h4>
+                            <h5>DEVELOPER</h5>
                             <div class="social">
                             </div>
                         </div>
@@ -382,20 +393,25 @@
                     <div class="col-lg-3 col-md-6">
                         <div class="member">
                             <div class="pic">
-                                <img src="img/Team/team-3.jpg" alt="" />
+                                <img src="img/Team/team-3.webp" alt="team member 1" />
                             </div>
                             <h4>امیرمهدی نوری</h4>
+                            <h5>PHOTOGRAPHER</h5>
                             <div class="social">
                             </div>
                         </div>
                     </div>
 
                     <div class="col-lg-3 col-md-6">
+
                         <div class="member">
                             <div class="pic">
-                                <img src="img/Team/team-4.jpg" alt="" />
+                                <a href="mailto:alirezaghavami77@gmail.com?subject=عضویت در وین اسکریپت">
+                                    <img src="img/Team/join.webp" alt="" />
+                                </a>
                             </div>
-                            <h4>امیرحسین تقوی</h4>
+                            <h4>به ما بپیوندید</h4>
+                            <h5>JOIN US</h5>
                             <div class="social">
                                 <!-- <a href=""><i class="fa fa-twitter"></i></a>
                 <a href=""><i class="fa fa-facebook"></i></a>
@@ -452,9 +468,9 @@
                     <div class="social-links">
                         <a href="https://t.me/WinScript" class="telegram"><i class="fa fa-telegram"></i></a>
                         <a href="https://www.instagram.com/ghavami.alireza77/" class="instagram"><i
-                            class="fa fa-instagram"></i></a>
+                                class="fa fa-instagram"></i></a>
                         <a href="https://www.linkedin.com/in/alirezaghavami98/" class="linkedin"><i
-                            class="fa fa-linkedin"></i></a>
+                                class="fa fa-linkedin"></i></a>
                     </div>
                 </div>
             </div>
@@ -495,4 +511,5 @@
     <!-- Javascript Files -->
     <script src="js/main.js"></script>
 </body>
+
 </html>
