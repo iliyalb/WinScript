@@ -118,12 +118,21 @@ h1, h2, h3, h4, h5, h6 {
             margin: 0;
         }
 
+        #header #logo picture {
+            padding: 0;
+            margin: 0;
+        }
+
 @media (max-width: 768px) {
     #header #logo h1 {
         font-size: 26px;
     }
 
     #header #logo img {
+        max-height: 40px;
+    }
+
+    #header #logo picture {
         max-height: 40px;
     }
 }
@@ -149,7 +158,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #hero {
-    background: url(../img/Background/wall.jpg) top center no-repeat;
+    background: url(../img/Background/wall.webp) top center no-repeat;
     background-size: cover;
     /*animation: 3s ease-in-out 0s 1 ZoomIn;*/
     /*animation-fill-mode: forwards;*/
@@ -530,8 +539,17 @@ body.mobile-nav-active {
     font-size: 1.08em;
 }
 
+.downloadLinks .fab {
+    padding-left: 7%;
+    padding-top: 7%;
+}
+
+.downloadLinks li {
+    padding-top: 5%;
+}
+
 .download {
-    width: 200px;
+    width: 300px;
     height: 75px;
     background: black;
     border-radius: 5px;
@@ -573,6 +591,10 @@ ul {
 }
 
 #about-us img {
+    max-width: 100%;
+}
+
+#about-us picture {
     max-width: 100%;
 }
 
@@ -728,7 +750,7 @@ video {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Background/call-to-action-bg.jpg) fixed center center;
+    background: linear-gradient(rgba(0, 0, 0, 0.6), rgba(0, 0, 0, 0.6)), url(../img/Background/call-to-action-bg.webp) fixed center center;
     background-size: cover;
     padding: 172px 0;
 }
@@ -831,6 +853,14 @@ video {
             transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
         }
 
+        #portfolio .portfolio-item picture {
+            position: relative;
+            width: 120%;
+            margin: 0 auto;
+            top: 0;
+            transition: all 600ms cubic-bezier(0.645, 0.045, 0.355, 1);
+        }
+
         #portfolio .portfolio-item .details {
             height: 50px;
             background: #2dc997;
@@ -864,6 +894,10 @@ video {
             top: -30px;
         }
 
+        #portfolio .portfolio-item:hover picture {
+            top: -30px;
+        }
+
 /* Team Section
 --------------------------------*/
 #team {
@@ -886,10 +920,20 @@ video {
                 max-width: 100%;
             }
 
+            #team .member .pic picture {
+                max-width: 100%;
+            }
+
         #team .member h4 {
             font-weight: 700;
             margin-bottom: 2px;
             font-size: 18px;
+        }
+
+        #team .member h5 {
+            font-weight: 500;
+            padding-top: 10px;
+            font-size: 15px;
         }
 
         #team .member span {
