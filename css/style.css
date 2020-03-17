@@ -4,10 +4,11 @@
 @import url('https://fonts.googleapis.com/css?family=Poppins|Tajawal:500&display=swap');
 
 @font-face {
-    font-family: 'Poppins','Tajawal','Pacifico', sans-serif;
+    font-family: 'Poppins','Tajawal',FontAwesome, sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2');
+    src: url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.woff2) format('woff2');
+    /* src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2'); */
     font-display: swap;
   }
 
@@ -307,7 +308,6 @@ h1, h2, h3, h4, h5, h6 {
         content: "\f107";
         position: absolute;
         right: 15px;
-        font-family: FontAwesome;
         font-style: normal;
         font-weight: normal;
     }
