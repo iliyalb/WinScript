@@ -125,6 +125,13 @@ jQuery(document).ready(function ($) {
     time: 1000
   });
 
+  $(function () {
+    $('#ios').click(function () {
+        alert('در حال حاضر نسخه iOS موجود نیست');
+        return false;
+    });
+});
+
   // custom code
   // $("a").click(function(event){
   //   event.preventDefault();
