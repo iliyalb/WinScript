@@ -999,7 +999,10 @@ video {
         }
 
     #contact .social-links {
-        padding-bottom: 20px;
+        display:inline-block;
+        padding-bottom: 10px;
+        text-align: center;
+        vertical-align: bottom;
     }
 
         #contact .social-links a {
