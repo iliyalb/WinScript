@@ -7,7 +7,8 @@
     font-family: 'Poppins','Tajawal',FontAwesome, sans-serif;
     font-style: normal;
     font-weight: 400;
-    src: url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.woff2) format('woff2');
+    src: url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-brands-400.woff2) format('woff2'),
+    url(https://kit-free.fontawesome.com/releases/latest/webfonts/free-fa-solid-900.woff2) format('woff2');
     /* src: local('Pacifico Regular'), local('Pacifico-Regular'), url(https://fonts.gstatic.com/s/pacifico/v12/FwZY7-Qmy14u9lezJ-6H6MmBp0u-.woff2) format('woff2'); */
     font-display: swap;
   }
